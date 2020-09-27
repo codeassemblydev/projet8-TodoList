@@ -55,6 +55,10 @@ class TaskController extends AbstractController
     }
 
     /**
+     * permet de modifier une tache
+     */
+
+    /**
      * @Route("/tasks/{id}/edit", name="task_edit")
      */
     public function editAction(Task $task, Request $request)
